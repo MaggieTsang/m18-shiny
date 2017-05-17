@@ -1,13 +1,13 @@
 #INFO 201 M18 Exercise 5 Server
 
-#Require the following: shiny, HSUAR, dyplr, and ggplot2
+#Require the following: shiny, HSAUR, dyplr, and ggplot2
 library(shiny)
-library(HSUAR)
+library(HSAUR)
 library(dplyr)
 library(ggplot2)
 
 #Load the dataset 'womensrole' from the HSUAR package (same way you would load a built in dataset)
-
+data <- womensrole
 
 
 #Here you will define the data that is shown based on your inputs defined in the UI
